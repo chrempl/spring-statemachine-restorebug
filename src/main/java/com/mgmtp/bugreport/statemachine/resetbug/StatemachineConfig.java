@@ -14,9 +14,9 @@ public class StatemachineConfig extends StateMachineConfigurerAdapter<State, Eve
 	public void configure(final StateMachineStateConfigurer<State, Event> states) throws Exception {
 
 		states.withStates()
-				.initial(SuperState.INITIAL)
-				.state(SuperState.PARENT)
 				.end(SuperState.END)
+				.state(SuperState.PARENT)
+				.initial(SuperState.INITIAL)
 				.and()
 				.withStates()
 				.parent(SuperState.PARENT)

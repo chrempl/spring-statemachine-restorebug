@@ -1,0 +1,3 @@
+To reproduce https://github.com/spring-projects/spring-statemachine/issues/554
+
+com.mgmtp.bugreport.statemachine.resetbug.StatemachineTest fails with spring statemachine > 1.2.10 
